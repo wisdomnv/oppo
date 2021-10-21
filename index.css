@@ -1,0 +1,537 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.banxin{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+/* 顶部开 */
+.top{
+    height: 37px;
+    background-color: #2b2b2b;
+    border-top:3px solid #00935e;
+}
+
+.top-left{
+    float: left;
+    /* background-color: skyblue; */
+}
+
+.top-right{
+    float: right;
+   
+}
+/* 顶部结 */
+
+
+/* 顶部左侧开 */
+.top .top-left ul li{
+    float: left;
+    margin-right:23px ;
+    font-size: 12px;
+    color: #029362;
+    height: 37px;
+    line-height: 37px;
+}
+
+.top .top-left .weibo{
+    display: block;
+    width: 22px;
+    height: 37px;
+    background:url(../oppo/images/icons/weibo_01.png) no-repeat center;
+}
+
+.top .top-left .tencent{
+    display: block;
+    width: 22px;
+    height: 37px;
+    background: url(../oppo/images/icons/tencent_02.png) no-repeat center;
+}
+/* 顶部左侧结 */
+
+
+/* 顶部右侧开 */
+
+.top .top-right li{
+    float: left;
+    height: 37px;
+    line-height: 37px;
+    font-size: 12px;
+    color: #999999;
+}
+
+ .top .top-right ul li a{
+    padding: 0 16px;
+    color: #999999;
+} 
+
+ #cart{
+    background: url(../oppo/images/icons/cart_02.png) no-repeat 16px center;
+    padding-left:43px ;
+}  
+/* 顶部右侧结 */
+
+
+
+
+/* logo开 */
+.logo-area{
+    height: 86px;
+    /* background-color: lightgreen; */
+}
+.logo-area .logo{
+    float: left;
+    /* background-color: yellow; */
+}
+.logo-area .logo a{
+    display: block;
+    width: 162px;
+    height: 86px;
+    background: url(../oppo/images/logo.png) no-repeat center;
+}
+
+.nav ul li:hover a{
+    color: teal;
+}
+
+
+.logo-area .nav{
+    float: right;
+    /* background-color: violet; */
+}
+.logo-area .nav  ul li{
+    float: left;
+    height: 86px;
+    line-height: 86px;
+    margin: 0 18px;
+    font-size: 18px;
+}
+.co{
+    color: #029362;
+}
+/* logo结 */
+
+
+/* 广告图 */
+.bannner{
+    background: url(../oppo/images/banner.jpg) no-repeat center;
+    height: 622px;
+}
+
+
+
+ 
+/* 明星机型开   */
+.star{
+    padding-top: 47px;
+    padding-bottom: 100px;
+    background-color: #eee;
+}
+
+.star .star-top .text{
+    text-align: center;
+}
+.star .star-top  p{
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    margin-bottom: 7px;
+    font-size: 11px;
+}
+.star .star-top p a{
+    color: #00935e;
+    margin-left: 20px;
+}
+.star .star-product{
+    
+    height: 576px;
+}
+
+
+/* 下 */
+.star-product  li{
+    float: left;
+    width: 280px;
+    height: 576px;
+    /* background-color: lightgreen; */
+    margin-right: 20px;
+    border-bottom: 5px solid #ccc;
+}
+.star-product li:last-child{
+    margin-right: 0;
+}
+/* li里面 */
+.star .star-product li p{
+    text-align: center;
+}
+.star-product ul li .a{
+    line-height: 68px;
+    font-style: 12px;
+    font-weight: 700;
+}
+.star-product  li .b{
+    height: 27px;
+    font-size: 11px;
+    color: rgb(139, 135, 135);
+}
+.star-product  li .c{
+    font-size: 11px;
+    color: #00945f;
+}
+.star-product  li .c img{
+    vertical-align: middle;
+}
+
+/* 明星机型结   */
+
+
+
+
+
+
+
+
+/* 配件开 */
+.mountings{
+    padding: 30px 0 23px;
+}
+.peijian{
+    overflow: hidden;
+}
+.peijian .left{
+    /* background-color: green; */
+    float: left;
+    width: 580px;
+    height: 890px;
+}
+
+
+/* 左盒子的top */
+.left .l-top{
+    /* background-color: lightseagreen; */
+    height: 590px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.l-top .l-top-left,.l-top-right{
+    float: left;
+}
+/* 左盒子的top的右边 */
+.left .l-top .l-top-left{
+    /* background-color: maroon; */
+    height: 590px;
+    width: 50%;
+}
+/* 左盒子的top的左边 */
+.left .l-top .l-top-right {
+    margin-left: 10px;
+}
+.left .l-top .l-top-right .l-top-left-top{
+    /* background-color: rgb(236, 203, 16); */
+    height: 285px;
+    width: 280px;
+}
+.left .l-top .l-top-right .l-top-left-bottom{
+    /* background-color: rgb(177, 19, 98); */
+    height: 285px;
+    width: 280px;
+    margin-top: 20px;
+}
+
+/* 左盒子的bottom */
+.left .l-bottom{
+    /* background-color: lightslategrey; */
+    height: 280px;
+    width: 100%;
+}
+
+/* 右盒子 */
+.peijian .right{
+    /* background-color: blue; */
+    float: right;
+    width: 580px;
+    height: 890px;
+}
+.right .r-top{
+    /* background-color: rgb(209, 89, 20); */
+    height: 280px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.right .r-bottom{
+    /* background-color: rgb(228, 26, 184); */
+    height: 590px;
+    width: 100%;
+}
+.r-bottom-right{
+    position: relative;
+}
+.r-bottom-left{
+    float: left;
+    /* background-color: steelblue; */
+    height: 590px;
+    width: 290px;
+}
+
+.r-bottom-right-top{
+    float: right;
+    /* background-color: tan; */
+    height: 285px;
+    width: 277px;
+}
+.r-bottom-right-bottom{
+    float: right;
+    margin-top: 20px;
+    /* background-color: teal; */
+    height: 285px;
+    width: 277px;
+}
+
+
+
+
+.mountings .text{
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    margin-bottom: 7px;
+    font-size: 19px;
+}
+/* 配件结 */
+
+/* 探索开 */
+.tans .text{
+    text-align: center;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    margin-bottom: 7px;
+    font-size: 19px;
+}
+.tans .op-left{
+    float: left;
+    width: 720px;
+    height: 540px;
+}
+.tans .op-right{
+    float: left;
+    height: 540px;
+    width: 380px;
+    
+}
+.tans .op-left ul li{
+    float: left;
+    width: 360px;
+    height: 270px;
+}
+.tans .op-left ul li img{
+    width: 100%;
+    height: 100%;
+}
+.tans .op-right img{
+    height: 100%;border-bottom: 5px solid #ccc;
+}
+.a{
+    height: 611px;
+}
+/* 探索结 */
+
+
+
+/* 正品保障开 */
+.zp-top{
+    height: 180px;;
+    border-bottom: 1px solid #ccc;
+}
+.tp-1{
+    background: url(./images/icons/list01_02.png) no-repeat;
+}.tp-2{
+    background: url(./images/icons/list02_02.png) no-repeat;
+}.tp-3{
+    background: url(./images/icons/list03_02.png) no-repeat;
+}.tp-4{
+    background: url(./images/icons/list04_02.png) no-repeat;
+}.tp-5{
+    background: url(./images/icons/list05_02.png) no-repeat;
+}
+.tp-1 p{
+    padding-left: 48px;
+}.tp-2 p{
+    padding-left: 48px;
+}.tp-3 p{
+    padding-left: 48px;
+}.tp-4 p{
+    padding-left: 48px;
+}.tp-5 p{
+    padding-left: 48px;
+}
+.zp-top ul li{
+    float: left;
+    margin: 12px;
+}
+.zp-top ul{
+    padding-top: 64px;
+}
+
+
+
+.zp-bo{
+    margin-top: 20px;
+}
+.zp-bo dl dd{
+    background: url(./images/dot.jpg) no-repeat left center;
+    
+}
+.zp-bo .about{
+    padding-left: 3px;
+    margin-bottom: 20px;
+    font-size: 700;
+    font-size: 23px;
+}
+
+.zp-bo dl{
+    float: left;
+    margin-right: 86px;
+}
+.zp-bo dl dd{
+    padding-left: 10px;
+    height: 30px;
+    color: rgb(221, 221, 221);
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.zp-bo{
+    position: relative;
+}
+.las{
+    position: absolute;
+    top: 2px;
+    right: 11px;
+    width: 200px;
+}
+.las .di{
+    margin-top: 20px;
+    width: 40px;
+    height: 41px;
+    background: url(./images/sprite.png) no-repeat 0 -511px;
+}
+.p1{
+    position: absolute;
+    top: 30px;
+    right: 49px;
+}
+.p2{
+    position: absolute;
+    top: 52px;
+    right: 25px;
+}
+.zp-bo dt,.las dt{
+    font-size: 21px;
+    font-weight: 700;
+}
+
+
+
+.las .dl{
+    margin-top: 20px;
+    width: 40px;
+    height: 41px;
+    background: url(./images/sprite.png) no-repeat 0 -443px;
+}
+
+.p3{
+    position: absolute;
+    top: 110px;
+    right: 61px;
+}
+.p4{
+    position: absolute;
+    top: 133px;
+    right: -28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.b{
+  height: 200px;  
+}
+/* 正品保障结 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 底部开 */
+.foot{
+    height: 84px;
+    background-color: rgb(19, 18, 18);
+    text-align: center;
+    line-height: 84px;
+    color: #ccc;
+}
+.foot .left{
+    float: left;
+}.foot .right{
+    float: left;
+}
+.foot .left p{
+    float: left;
+}
+.foot .right ul li{
+    float: right;
+    margin: 0 12px;
+}
+.foot .left .op{
+    margin-right:107px ;
+    font-size: 21px;
+    font-weight: 700;
+}
+.foot .left .dong{
+    margin-right: 287px;
+    font-size: 5px;
+}
+
+/* 底部结 */
